@@ -1,0 +1,47 @@
+/* Css file : Resume.js */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: pink;
+    width: 100%;
+    height: 7vh;
+    position: sticky;
+}
+
+.left{
+    background-color: rgb(149, 178, 186);
+    height: 100vh;
+    width: 5vw;
+    position: sticky;    
+    float: left;
+}
+
+.insideContainer{
+    /* background-color: green; */
+    width:auto;
+    height: 100vh;
+    margin: auto;
+    color: black;
+}
+
+.right{
+    background-color: rgb(149, 178, 186);
+    height: 100vh;
+    width: 5vw;
+    float:right;
+    position: absolute;
+    top: 7vh;
+    right: 0vw;
+}
+
+.footer{
+    background-color: pink;
+    width: 100%;
+    height: 7vh;
+    clear: both;
+    position: relative;
+}
